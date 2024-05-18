@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:travel_app_ui/screens/homepage_screen.dart';
 import 'package:travel_app_ui/screens/splash_screen.dart';
 
 void main() {
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: HomePage(),
+      home: const SplashScreen(),
     );
   }
 }
